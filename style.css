@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    background-color: peachpuff;
+    height: 160px;
+    width: 100%;
+    background-image: url(image/橫幅-櫻花村鐵匠.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h3 {
+    color:white;
+    position:absolute;
+    left:5vw;
+    top:0;
+    line-height: 240px;
+    
+}
+header ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:240px;
+}
+header li {
+    display: inline;
+    margin-right:4vw;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+
+
+.layout {
+    background-color:bisque;
+    height: 85vh;
+    background-image: url(image/wooden_background.png);
+    background-attachment: fixed;
+    display: flex;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.self {
+    color:black;
+    background-color: goldenrod;
+    width: 207px;
+}
+
+.post-list {
+    color: black;
+    background-color: gainsboro;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post {
+    background: rgba(100, 100, 100, 0.3); /* 灰色 + 30% 不透明 */
+    padding: 20px;
+    border-radius: 10px;
+}
