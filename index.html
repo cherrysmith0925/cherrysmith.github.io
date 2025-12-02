@@ -33,6 +33,16 @@
         <p>>偶爾滋潤一下文學</p>
         <p>>想當YTR，但發現市場好像已經飽和了</p>
         </article>
+
+        <p>瀏覽人次:<span id="count"></span></p>
+        <script>
+            fetch('https://api.countapi.xyz/hit/cherrysmith/visits')
+            .then(res => res.json())
+            .then(res => {
+                document.getElementById('count').innerText = res.value;
+            });
+        </script>
+
         </aside>
         </section>
 
